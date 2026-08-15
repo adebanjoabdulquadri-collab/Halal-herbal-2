@@ -1,0 +1,1035 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Halal Herbal Ikorodu — Natural Wellness, Rooted in Education</title>
+    <meta
+      name="description"
+      content="Halal Herbal is a natural health and wellness centre in Ikorodu, Lagos, offering education-first herbal support for hypertension, infertility and infections."
+    />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              /* Exact colors extracted from your screenshot */
+              brandYellow:
+                "#F3D053" /* Soft golden yellow for header bars & card backgrounds */,
+              brandGreen:
+                "#358E2B" /* Bright leaf green for borders & logo accents */,
+              brandDarkGreen: "#537227" /* Dark olive-green for box borders */,
+              brandRed: "#D63338" /* Red BN badge */,
+              brandText: "#333333" /* Dark text color */,
+              pageBg: "#FFFFFF" /* Overall site background */,
+            },
+            fontFamily: {
+              serif: ["Fraunces", "ui-serif", "Georgia", "serif"],
+              sans: ["Inter", "ui-sans-serif", "system-ui", "sans-serif"],
+            },
+          },
+        },
+      };
+    </script>
+
+    <style>
+      html {
+        scroll-padding-top: 88px;
+      }
+      body {
+        font-feature-settings: "ss01" 1;
+        background-color: #ffffff;
+        color: #333333;
+      }
+      .eyebrow {
+        letter-spacing: 0.14em;
+      }
+      .leaf-divider {
+        background-image: radial-gradient(
+          circle at 1px 1px,
+          rgba(53, 142, 43, 0.35) 1px,
+          transparent 0
+        );
+        background-size: 14px 14px;
+      }
+      .faq-panel {
+        transition: grid-template-rows 300ms ease;
+        display: grid;
+        grid-template-rows: 0fr;
+      }
+      .faq-panel[data-open="true"] {
+        grid-template-rows: 1fr;
+      }
+      .faq-panel > div {
+        overflow: hidden;
+      }
+      .faq-icon {
+        transition: transform 250ms ease;
+      }
+      details::-webkit-details-marker {
+        display: none;
+      }
+      @media (prefers-reduced-motion: reduce) {
+        * {
+          animation-duration: 0.001ms !important;
+          transition-duration: 0.001ms !important;
+        }
+      }
+      :focus-visible {
+        outline: 2px solid #358e2b;
+        outline-offset: 3px;
+      }
+      .hero-sprig {
+        animation: sway 9s ease-in-out infinite;
+        transform-origin: bottom center;
+      }
+      @keyframes sway {
+        0%,
+        100% {
+          transform: rotate(-2deg);
+        }
+        50% {
+          transform: rotate(2deg);
+        }
+      }
+    </style>
+  </head>
+  <body class="bg-white text-[#242920] font-sans antialiased">
+    <!-- ================= NAV ================= -->
+    <header
+      id="top"
+      class="fixed top-0 inset-x-0 z-50 bg-white backdrop-blur border-b border-[#527429]/20"
+    >
+      <nav
+        class="bg-white max-w-7xl mx-auto px-5 sm:px-8 h-[76px] flex items-center justify-between"
+      >
+        <a href="#top" class="flex items-center shrink-0">
+          <img
+            src="./images/IMG-20260815-WA0006.jpg"
+            alt="Halal Herbal Ikorodu"
+            class="h-14 sm:h-16 w-auto max-w-[200px] sm:max-w-[280px] object-contain py-1"
+          />
+        </a>
+
+        <ul
+          class="hidden md:flex items-center gap-9 text-[15px] font-bold text-[#358E2B]"
+        >
+          <li>
+            <a href="#treat" class="hover:text-[#358E2B] transition-colors"
+              >What we treat</a
+            >
+          </li>
+          <li>
+            <a href="#approach" class="hover:text-[#358E2B] transition-colors"
+              >Our approach</a
+            >
+          </li>
+          <li>
+            <a href="#reviews" class="hover:text-[#358E2B] transition-colors"
+              >Reviews</a
+            >
+          </li>
+          <li>
+            <a href="#faq" class="hover:text-[#358E2B] transition-colors"
+              >FAQ</a
+            >
+          </li>
+          <li>
+            <a href="#visit" class="hover:text-[#358E2B] transition-colors"
+              >Visit</a
+            >
+          </li>
+        </ul>
+
+        <div class="hidden md:flex items-center gap-3">
+          <a
+            href="tel:07082209763"
+            class="inline-flex items-center gap-2 bg-[#358E2B] hover:bg-[#2b7523] text-white text-sm font-semibold px-5 py-2.5 rounded-full transition-colors"
+          >
+            <svg
+              width="15"
+              height="15"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"
+              />
+            </svg>
+            Call now
+          </a>
+        </div>
+
+        <!-- mobile toggle -->
+        <button
+          id="menuBtn"
+          aria-label="Open menu"
+          aria-expanded="false"
+          class="md:hidden p-2 -mr-2 text-[#358E2B]"
+        >
+          <svg
+            id="iconOpen"
+            width="26"
+            height="26"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+          >
+            <path d="M4 7h16M4 12h16M4 17h16" />
+          </svg>
+          <svg
+            id="iconClose"
+            class="hidden"
+            width="26"
+            height="26"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+          >
+            <path d="M6 6l12 12M18 6L6 18" />
+          </svg>
+        </button>
+      </nav>
+
+      <!-- mobile panel -->
+      <div
+        id="mobileMenu"
+        class="md:hidden hidden border-t border-[#527429]/20 bg-white"
+      >
+        <ul
+          class="flex flex-col px-5 py-4 gap-1 text-[15px] font-bold text-[#358E2B]"
+        >
+          <li><a href="#treat" class="block py-2.5">What we treat</a></li>
+          <li><a href="#approach" class="block py-2.5">Our approach</a></li>
+          <li><a href="#reviews" class="block py-2.5">Reviews</a></li>
+          <li><a href="#faq" class="block py-2.5">FAQ</a></li>
+          <li><a href="#visit" class="block py-2.5">Visit</a></li>
+          <li class="pt-3">
+            <a
+              href="tel:07082209763"
+              class="inline-flex items-center justify-center w-full gap-2 bg-[#358E2B] text-white text-sm font-semibold px-5 py-3 rounded-full"
+              >Call 0708 220 9763</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+    <!-- ================= HERO ================= -->
+    <section
+      class="bg-[url('/images/hero-herbs.jpg')] relative pt-[76px] overflow-hidden"
+    >
+      <div class="absolute inset-0 opacity-[0.07] leaf-divider"></div>
+      <div
+        class="absolute -right-24 -top-10 w-[420px] h-[420px] rounded-full bg-[#F5D865]/30 blur-3xl"
+      ></div>
+      <div
+        class="absolute left-1/3 bottom-0 w-[300px] h-[300px] rounded-full bg-[#358E2B]/10 blur-3xl"
+      ></div>
+
+      <div
+        class="relative max-w-7xl mx-auto px-5 sm:px-8 pt-16 pb-24 md:pt-24 md:pb-32 grid md:grid-cols-[1.15fr_0.85fr] gap-14 items-center"
+      >
+        <div>
+          <p
+            class="text-white eyebrow uppercase text-[12px] font-bold text-[#527429] bg-[#F5D865] px-4 py-1.5 rounded-lg inline-block mb-5"
+          >
+            Wellness Centre · Ikorodu, Lagos
+          </p>
+          <h1
+            class="text-white font-serif text-[#242920] text-[2.6rem] leading-[1.08] sm:text-6xl sm:leading-[1.05] font-bold"
+          >
+            Lasting wellness begins with understanding the
+            <span class="relative inline-block">
+              root cause
+              <svg
+                class="absolute left-0 -bottom-1 w-full"
+                height="10"
+                viewBox="0 0 220 10"
+                preserveAspectRatio="none"
+                fill="none"
+              >
+                <path
+                  d="M2 7.5C40 2 100 2 218 7"
+                  stroke="#358E2B"
+                  stroke-width="3"
+                  stroke-linecap="round"
+                />
+              </svg> </span
+            >.
+          </h1>
+          <p class="mt-7 text-white text-lg leading-relaxed max-w-xl">
+            A natural health and wellness brand helping you make informed
+            decisions through trusted education, premium herbal products and
+            personalised support.
+          </p>
+          <div class="mt-9 flex flex-wrap gap-4">
+            <a
+              href="#visit"
+              class="bg-[#F5D865] hover:bg-[#e0c350] text-[#242920] border-2 border-[#527429] font-bold px-7 py-3.5 rounded-full transition-colors"
+              >Speak to a consultant</a
+            >
+            <a
+              href="#treat"
+              class="border-2 text-white border-white hover:bg-[#358E2B] hover:text-white text-[#358E2B] font-bold px-7 py-3.5 rounded-full transition-colors"
+              >What we help with</a
+            >
+          </div>
+        </div>
+
+        <div class="relative hidden md:block">
+          <div
+            class="aspect-[4/5] rounded-[28px] bg-[#F5D865] border-4 border-[#527429] flex items-center justify-center overflow-hidden"
+          >
+            <img
+              src="./images/Gemini_Generated_Image_3oy9ee3oy9ee3oy9.png"
+              alt=""
+              class="w-full h-full object-cover object-top"
+            />
+          </div>
+          <div
+            class="absolute -bottom-6 -left-6 bg-[#F5D865] rounded-2xl shadow-xl px-5 py-4 border-2 border-[#527429]"
+          >
+            <p class="font-serif text-2xl text-[#242920] font-bold">
+              Herbal remedies
+            </p>
+            <p class="text-xs text-[#242920]/80 leading-snug w-28">
+              for every stage of care
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= WHAT WE TREAT ================= -->
+    <section id="treat" class="bg-white py-24 md:py-28">
+      <div class="max-w-7xl mx-auto px-5 sm:px-8">
+        <p class="eyebrow uppercase text-[12px] font-bold text-[#527429] mb-4">
+          Our specialisation
+        </p>
+        <h2
+          class="font-serif text-3xl sm:text-4xl text-[#242920] font-bold max-w-2xl leading-tight"
+        >
+          Herbal wellness solutions across the conditions we treat
+        </h2>
+
+        <div class="mt-14 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <article
+            class="bg-[#F5D865] rounded-2xl p-8 border-4 border-[#527429] shadow-sm"
+          >
+            <div
+              class="w-11 h-11 rounded-full bg-[#358E2B]/20 flex items-center justify-center mb-6"
+            >
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#527429"
+                stroke-width="2"
+              >
+                <path d="M12 2C7 7 4 11 4 15a8 8 0 0 0 16 0c0-4-3-8-8-13z" />
+              </svg>
+            </div>
+            <h3 class="font-serif text-xl font-bold text-[#242920] mb-2.5">
+              Prostate Enlargement Syrup
+            </h3>
+            <p class="text-[#242920]/90 leading-relaxed">
+              A herbal syrup formulated to support prostate health and ease the
+              symptoms of an enlarged prostate.
+            </p>
+          </article>
+
+          <article
+            class="bg-[#F5D865] rounded-2xl p-8 border-4 border-[#527429] shadow-sm"
+          >
+            <div
+              class="w-11 h-11 rounded-full bg-[#358E2B]/20 flex items-center justify-center mb-6"
+            >
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#527429"
+                stroke-width="2"
+              >
+                <path d="M12 2C7 7 4 11 4 15a8 8 0 0 0 16 0c0-4-3-8-8-13z" />
+              </svg>
+            </div>
+            <h3 class="font-serif text-xl font-bold text-[#242920] mb-2.5">
+              Manpower
+            </h3>
+            <p class="text-[#242920]/90 leading-relaxed">
+              Herbal support for erectile dysfunction, quick ejaculation and
+              weak erection — formulated to work perfectly.
+            </p>
+          </article>
+
+          <article
+            class="bg-[#F5D865] rounded-2xl p-8 border-4 border-[#527429] shadow-sm"
+          >
+            <div
+              class="w-11 h-11 rounded-full bg-[#358E2B]/20 flex items-center justify-center mb-6"
+            >
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#527429"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                <polyline points="9 12 11 14 15 10" />
+              </svg>
+            </div>
+            <h3 class="font-serif text-xl font-bold text-[#242920] mb-2.5">
+              Hepaticure
+            </h3>
+            <p class="text-[#242920]/90 leading-relaxed">
+              Herbal support for hepatitis, the liver inflammation caused by
+              infectious and non-infectious agents — formulated to cure it, by
+              Allah's grace.
+            </p>
+          </article>
+
+          <article
+            class="bg-[#F5D865] rounded-2xl p-8 border-4 border-[#527429] shadow-sm"
+          >
+            <div
+              class="w-11 h-11 rounded-full bg-[#358E2B]/20 flex items-center justify-center mb-6"
+            >
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#527429"
+                stroke-width="2"
+              >
+                <path
+                  d="M20.42 4.58a5.4 5.4 0 0 0-7.65 0l-.77.78-.77-.78a5.4 5.4 0 0 0-7.65 7.65l8.42 8.42 8.42-8.42a5.4 5.4 0 0 0 0-7.65z"
+                />
+              </svg>
+            </div>
+            <h3 class="font-serif text-xl font-bold text-[#242920] mb-2.5">
+              Hypertension
+            </h3>
+            <p class="text-[#242920]/90 leading-relaxed">
+              Blood-pressure support built around diet, stress, circulation and
+              consistent herbal protocols — not quick fixes.
+            </p>
+          </article>
+
+          <article
+            class="bg-[#F5D865] rounded-2xl p-8 border-4 border-[#527429] shadow-sm"
+          >
+            <div
+              class="w-11 h-11 rounded-full bg-[#358E2B]/20 flex items-center justify-center mb-6"
+            >
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#527429"
+                stroke-width="2"
+              >
+                <path
+                  d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"
+                />
+              </svg>
+            </div>
+            <h3 class="font-serif text-xl font-bold text-[#242920] mb-2.5">
+              Infertility
+            </h3>
+            <p class="text-[#242920]/90 leading-relaxed">
+              Fertility support for men and women, addressing hormonal balance,
+              cycle health and underlying infections.
+            </p>
+          </article>
+
+          <article
+            class="bg-[#F5D865] rounded-2xl p-8 border-4 border-[#527429] shadow-sm"
+          >
+            <div
+              class="w-11 h-11 rounded-full bg-[#358E2B]/20 flex items-center justify-center mb-6"
+            >
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#527429"
+                stroke-width="2"
+              >
+                <path d="M10 2v7.31M14 9.31V2M8.5 2h7M12 12v10M8 17h8" />
+              </svg>
+            </div>
+            <h3 class="font-serif text-xl font-bold text-[#242920] mb-2.5">
+              Infections
+            </h3>
+            <p class="text-[#242920]/90 leading-relaxed">
+              Targeted herbal care for recurring internal infections, with
+              guidance on what keeps bringing them back.
+            </p>
+          </article>
+
+          <article
+            class="bg-[#F5D865] rounded-2xl p-8 border-4 border-[#527429] shadow-sm"
+          >
+            <div
+              class="w-11 h-11 rounded-full bg-[#358E2B]/20 flex items-center justify-center mb-6"
+            >
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#527429"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <circle cx="12" cy="12" r="10" />
+                <path d="M12 8v8" />
+                <path d="M8 12h8" />
+              </svg>
+            </div>
+            <h3 class="font-serif text-xl font-bold text-[#242920] mb-2.5">
+              Ulcer Cure
+            </h3>
+            <p class="text-[#242920]/90 leading-relaxed">
+              A herbal remedy formulated to cure ulcers perfectly.
+            </p>
+          </article>
+
+          <article
+            class="bg-[#F5D865] rounded-2xl p-8 border-4 border-[#527429] shadow-sm"
+          >
+            <div
+              class="w-11 h-11 rounded-full bg-[#358E2B]/20 flex items-center justify-center mb-6"
+            >
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#527429"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"
+                />
+              </svg>
+            </div>
+            <h3 class="font-serif text-xl font-bold text-[#242920] mb-2.5">
+              Rheumatism Balm
+            </h3>
+            <p class="text-[#242920]/90 leading-relaxed">
+              A soothing herbal balm formulated to ease rheumatism and joint
+              discomfort.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= OUR APPROACH ================= -->
+    <section
+      id="approach"
+      class="bg-[#F5D865]/20 py-24 md:py-28 border-y-2 border-[#527429]/10"
+    >
+      <div
+        class="max-w-7xl mx-auto px-5 sm:px-8 grid md:grid-cols-2 gap-16 items-center"
+      >
+        <div>
+          <p
+            class="eyebrow uppercase text-[12px] font-bold text-[#527429] mb-4"
+          >
+            Our approach
+          </p>
+          <h2
+            class="font-serif text-3xl sm:text-4xl text-[#242920] font-bold leading-tight"
+          >
+            Generations of herbal knowledge, with a practical education-first
+            method
+          </h2>
+          <p class="mt-6 text-[#242920]/80 leading-relaxed max-w-lg">
+            We combine traditional herbal practice with honest information, so
+            you leave knowing what you are taking and why. No pressure, no
+            exaggerated claims.
+          </p>
+
+          <ol class="mt-10 space-y-8">
+            <li class="flex gap-5">
+              <span
+                class="font-serif text-[#358E2B] font-bold text-lg shrink-0 w-8"
+                >01</span
+              >
+              <div>
+                <h3 class="font-bold text-[#242920] text-lg mb-1">
+                  Education first
+                </h3>
+                <p class="text-[#242920]/80 leading-relaxed">
+                  You should understand why a remedy works. Every consultation
+                  starts with the root cause, in plain language.
+                </p>
+              </div>
+            </li>
+            <li class="flex gap-5">
+              <span
+                class="font-serif text-[#358E2B] font-bold text-lg shrink-0 w-8"
+                >02</span
+              >
+              <div>
+                <h3 class="font-bold text-[#242920] text-lg mb-1">
+                  Carefully selected products
+                </h3>
+                <p class="text-[#242920]/80 leading-relaxed">
+                  Herbal formulations prepared from sourced, inspected raw
+                  materials — generations of knowledge, handled cleanly.
+                </p>
+              </div>
+            </li>
+          </ol>
+        </div>
+
+        <div class="relative">
+          <div class="grid grid-cols-5 gap-4">
+            <div
+              class="col-span-3 aspect-[4/5] rounded-2xl bg-[#F5D865] border-4 border-[#527429] flex items-center justify-center"
+            >
+              <svg
+                width="70%"
+                height="70%"
+                viewBox="0 0 100 100"
+                fill="none"
+                stroke="#527429"
+                stroke-width="2"
+              >
+                <circle cx="50" cy="35" r="16" />
+                <path
+                  d="M28 90c0-14 10-24 22-24s22 10 22 24"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </div>
+            <div class="col-span-2 flex flex-col gap-4">
+              <div
+                class="aspect-square rounded-2xl bg-[#358E2B] flex items-center justify-center"
+              >
+                <svg
+                  width="50%"
+                  height="50%"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#F5D865"
+                  stroke-width="2"
+                >
+                  <rect x="9" y="3" width="6" height="18" rx="3" />
+                  <path d="M9 8h6M9 13h6" />
+                </svg>
+              </div>
+              <div
+                class="aspect-square rounded-2xl bg-[#D63338] flex items-center justify-center"
+              >
+                <svg
+                  width="50%"
+                  height="50%"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#FFFFFF"
+                  stroke-width="2"
+                >
+                  <path d="M3 9l9-6 9 6v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= REVIEWS ================= -->
+    <section id="reviews" class="bg-white py-24 md:py-28">
+      <div class="max-w-7xl mx-auto px-5 sm:px-8">
+        <p class="eyebrow uppercase text-[12px] font-bold text-[#527429] mb-4">
+          Reviews
+        </p>
+        <h2
+          class="font-serif text-3xl sm:text-4xl text-[#242920] font-bold max-w-2xl leading-tight"
+        >
+          What people tell us after visiting
+        </h2>
+
+        <div class="mt-14 grid md:grid-cols-3 gap-6">
+          <figure
+            class="bg-[#F5D865] rounded-2xl p-8 border-4 border-[#527429] shadow-sm"
+          >
+            <div class="flex gap-1 text-[#358E2B] mb-5" aria-hidden="true">
+              <span>★★★★★</span>
+            </div>
+            <blockquote class="text-[#242920] font-medium leading-relaxed">
+              "They explained everything before recommending anything. My blood
+              pressure readings have been steady for months."
+            </blockquote>
+            <figcaption class="mt-6 text-sm font-bold text-[#527429]">
+              Ikorodu resident
+            </figcaption>
+          </figure>
+
+          <figure
+            class="bg-[#F5D865] rounded-2xl p-8 border-4 border-[#527429] shadow-sm"
+          >
+            <div class="flex gap-1 text-[#358E2B] mb-5" aria-hidden="true">
+              <span>★★★★★</span>
+            </div>
+            <blockquote class="text-[#242920] font-medium leading-relaxed">
+              "No pressure to buy anything on the first visit. They asked
+              questions, listened, then gave honest guidance."
+            </blockquote>
+            <figcaption class="mt-6 text-sm font-bold text-[#527429]">
+              Lagos client
+            </figcaption>
+          </figure>
+
+          <figure
+            class="bg-[#F5D865] rounded-2xl p-8 border-4 border-[#527429] shadow-sm"
+          >
+            <div class="flex gap-1 text-[#358E2B] mb-5" aria-hidden="true">
+              <span>★★★★★</span>
+            </div>
+            <blockquote class="text-[#242920] font-medium leading-relaxed">
+              "The delivery arrived quickly outside Lagos, and the phone
+              consultation beforehand made me confident about what I was
+              taking."
+            </blockquote>
+            <figcaption class="mt-6 text-sm font-bold text-[#527429]">
+              Nationwide delivery client
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= FAQ ================= -->
+    <section
+      id="faq"
+      class="bg-[#F5D865]/20 py-24 md:py-28 border-t-2 border-[#527429]/10"
+    >
+      <div
+        class="max-w-7xl mx-auto px-5 sm:px-8 grid md:grid-cols-[0.8fr_1.2fr] gap-14"
+      >
+        <div>
+          <p
+            class="eyebrow uppercase text-[12px] font-bold text-[#527429] mb-4"
+          >
+            Good to know
+          </p>
+          <h2
+            class="font-serif text-3xl sm:text-4xl text-[#242920] font-bold leading-tight"
+          >
+            Questions we hear often
+          </h2>
+        </div>
+
+        <div
+          class="divide-y divide-[#527429]/20 border-t border-b border-[#527429]/20"
+        >
+          <div class="faq-item">
+            <button
+              class="faq-trigger w-full flex items-center justify-between gap-6 py-6 text-left"
+              aria-expanded="false"
+            >
+              <span class="font-serif text-lg font-bold text-[#242920]"
+                >Do I need an appointment?</span
+              >
+              <svg
+                class="faq-icon shrink-0 text-[#358E2B]"
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M12 5v14M5 12h14" />
+              </svg>
+            </button>
+            <div class="faq-panel" data-open="false">
+              <div>
+                <p class="pb-6 text-[#242920]/80 leading-relaxed max-w-xl">
+                  Walk-ins are welcome, but calling ahead means we can prepare
+                  for your specific concern before you arrive.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button
+              class="faq-trigger w-full flex items-center justify-between gap-6 py-6 text-left"
+              aria-expanded="false"
+            >
+              <span class="font-serif text-lg font-bold text-[#242920]"
+                >Can herbal care work alongside my prescribed medication?</span
+              >
+              <svg
+                class="faq-icon shrink-0 text-[#358E2B]"
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M12 5v14M5 12h14" />
+              </svg>
+            </button>
+            <div class="faq-panel" data-open="false">
+              <div>
+                <p class="pb-6 text-[#242920]/80 leading-relaxed max-w-xl">
+                  Bring your current prescriptions so we can review them with
+                  you and avoid anything that could interact.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button
+              class="faq-trigger w-full flex items-center justify-between gap-6 py-6 text-left"
+              aria-expanded="false"
+            >
+              <span class="font-serif text-lg font-bold text-[#242920]"
+                >How long before I see results?</span
+              >
+              <svg
+                class="faq-icon shrink-0 text-[#358E2B]"
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M12 5v14M5 12h14" />
+              </svg>
+            </button>
+            <div class="faq-panel" data-open="false">
+              <div>
+                <p class="pb-6 text-[#242920]/80 leading-relaxed max-w-xl">
+                  It depends on the condition and how consistently a protocol is
+                  followed — we'll give you a realistic timeline at your
+                  consultation, not a guess.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button
+              class="faq-trigger w-full flex items-center justify-between gap-6 py-6 text-left"
+              aria-expanded="true"
+            >
+              <span class="font-serif text-lg font-bold text-[#242920]"
+                >Do you deliver outside Ikorodu?</span
+              >
+              <svg
+                class="faq-icon shrink-0 text-[#358E2B] rotate-45"
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M12 5v14M5 12h14" />
+              </svg>
+            </button>
+            <div class="faq-panel" data-open="true">
+              <div>
+                <p class="pb-6 text-[#242920]/80 leading-relaxed max-w-xl">
+                  Yes. We arrange delivery across Lagos and nationwide after a
+                  phone consultation so the right product reaches you.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= VISIT ================= -->
+    <section id="visit" class="bg-white py-24 md:py-28">
+      <div
+        class="max-w-7xl mx-auto px-5 sm:px-8 grid lg:grid-cols-2 gap-12 items-stretch"
+      >
+        <div class="flex flex-col justify-center">
+          <p
+            class="eyebrow uppercase text-[12px] font-bold text-[#527429] mb-4"
+          >
+            Visit or call
+          </p>
+          <h2
+            class="font-serif text-3xl sm:text-4xl text-[#242920] font-bold leading-tight"
+          >
+            Come and talk to us
+          </h2>
+          <p class="mt-6 text-[#242920]/80 leading-relaxed max-w-md">
+            Bring your test results and current medication if you have them. A
+            short conversation tells us far more than a guess.
+          </p>
+
+          <div class="mt-9 grid grid-cols-1 sm:grid-cols-2 gap-8">
+            <div>
+              <p
+                class="eyebrow uppercase text-[11px] font-bold text-[#527429] mb-2"
+              >
+                Address
+              </p>
+              <p class="text-[#242920] leading-relaxed">
+                Igbe Rd, Laara, Ikorodu 104101, Lagos
+              </p>
+            </div>
+            <div>
+              <p
+                class="eyebrow uppercase text-[11px] font-bold text-[#527429] mb-2"
+              >
+                Phone
+              </p>
+              <a
+                href="tel:07082209763"
+                class="text-[#242920] leading-relaxed hover:text-[#358E2B] transition-colors"
+                >0708 220 9763</a
+              >
+            </div>
+          </div>
+
+          <div class="mt-9 flex flex-wrap gap-4">
+            <a
+              href="tel:07082209763"
+              class="inline-flex items-center gap-2 bg-[#358E2B] hover:bg-[#2b7523] text-white font-bold px-7 py-3.5 rounded-full transition-colors"
+              >Call 0708 220 9763</a
+            >
+            <a
+              href="https://www.google.com/maps/dir/?api=1&destination=Igbe+Rd,+Ikorodu,+Lagos"
+              target="_blank"
+              rel="noopener"
+              class="inline-flex items-center gap-2 bg-[#F5D865] border-2 border-[#527429] text-[#242920] font-bold px-7 py-3.5 rounded-full transition-colors"
+              >Get directions</a
+            >
+          </div>
+        </div>
+
+        <div
+          class="rounded-3xl overflow-hidden border-4 border-[#527429] min-h-[360px] shadow-sm"
+        >
+          <iframe
+            title="Map to Halal Herbal, Igbe Rd, Ikorodu, Lagos"
+            class="w-full h-full min-h-[360px]"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            src="https://www.google.com/maps?q=Igbe+Rd,+Ikorodu,+Lagos,+Nigeria&output=embed"
+          >
+          </iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="bg-[#358E2B] text-white">
+      <div
+        class="max-w-7xl mx-auto px-5 sm:px-8 py-16 grid md:grid-cols-2 gap-10"
+      >
+        <div>
+          <p class="font-serif text-2xl font-bold text-[#F5D865]">
+            Halal Herbal
+          </p>
+          <p class="mt-4 text-white/90 leading-relaxed max-w-sm">
+            Natural health and wellness, rooted in education. Igbe Rd, Laara,
+            Ikorodu 104101, Lagos.
+          </p>
+        </div>
+        <div class="md:text-right">
+          <a
+            href="tel:07082209763"
+            class="text-[#F5D865] font-bold text-lg hover:underline transition-colors"
+            >0708 220 9763</a
+          >
+          <p
+            class="mt-4 text-white/70 text-sm leading-relaxed max-w-sm md:ml-auto"
+          >
+            Herbal wellness support is not a replacement for emergency medical
+            care.
+          </p>
+        </div>
+      </div>
+      <div class="border-t border-white/20 py-6">
+        <p class="text-center text-white/60 text-xs">
+          © <span id="year"></span> Halal Herbal, Ikorodu. All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <script>
+      // Mobile menu toggle
+      const menuBtn = document.getElementById("menuBtn");
+      const mobileMenu = document.getElementById("mobileMenu");
+      const iconOpen = document.getElementById("iconOpen");
+      const iconClose = document.getElementById("iconClose");
+
+      menuBtn.addEventListener("click", () => {
+        const isHidden = mobileMenu.classList.contains("hidden");
+        mobileMenu.classList.toggle("hidden");
+        iconOpen.classList.toggle("hidden");
+        iconClose.classList.toggle("hidden");
+        menuBtn.setAttribute("aria-expanded", String(isHidden));
+      });
+
+      document.querySelectorAll("#mobileMenu a").forEach((link) => {
+        link.addEventListener("click", () => {
+          mobileMenu.classList.add("hidden");
+          iconOpen.classList.remove("hidden");
+          iconClose.classList.add("hidden");
+          menuBtn.setAttribute("aria-expanded", "false");
+        });
+      });
+
+      // FAQ accordion
+      document.querySelectorAll(".faq-trigger").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          const panel = btn.nextElementSibling;
+          const icon = btn.querySelector(".faq-icon");
+          const isOpen = panel.getAttribute("data-open") === "true";
+
+          panel.setAttribute("data-open", String(!isOpen));
+          btn.setAttribute("aria-expanded", String(!isOpen));
+          icon.style.transform = !isOpen ? "rotate(45deg)" : "rotate(0deg)";
+        });
+      });
+
+      // Footer year
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
